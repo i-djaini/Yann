@@ -1,0 +1,16 @@
+proxies:
+  - name: vmess_ws_ikada.sing-box.id_VVIP
+    server: ikada.sing-box.id
+    port: 443
+    type: vmess
+    uuid: 2a9c6e86-a746-4829-9398-3b66222b1e7a
+    alterId: 0
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    network: ws
+    ws-opts:
+      path: /buy-vmess-ws-pm-telegram-at-synricha
+      headers:
+        Host: ikada.sing-box.id
+    udp: true
